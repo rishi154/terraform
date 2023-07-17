@@ -17,6 +17,6 @@ resource "google_compute_instance" "vm_instance" {
     network = var.vpc_name
     access_config {
     }
-    subnetwork = var.subnetwork_id
+    subnetwork = var.subnet_name
   }
 }
