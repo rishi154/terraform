@@ -15,8 +15,8 @@ module "compute" {
   instance_count      = 1
   instance_type       = "t3.xlarge" #t3.micro"
   #vol_size            = 10
-  key_name            = "rshiwaklkarkey"
-  public_key_path     = "/home/ubuntu/.ssh/keyrshiwalkar.pub"
+  key_name            = "newrskey"
+  public_key_path     = "C:\\Users\\rishi\\Downloads\\rskey.pub"
 }
 
 output "compute_module" {  
